@@ -38,6 +38,16 @@ The CDNs of all ingredients, along with `script.js` and `style.css` files, have 
 5. You must not push any commits to your repo after 6 PM
 
 ----
+## API Instructions
+When the flags on the top are clicked, the language should change - For example, clicking the Chinese flag should display text in Chinese. The translations can be fetched from the API using query string:
+
+**API URL:** https://techkaro-test.herokuapp.com/api/v1/getdata
+**Query Parameter:** lang
+**lang values**: `en` for English, `zh` for Chinese, and `ur` for Urdu
+
+**Example:** To get data in Chinese, use https://techkaro-test.herokuapp.com/api/v1/getdata?lang=zh
+
+-------------------
 
 ## Screenshots
 
@@ -51,17 +61,6 @@ The CDNs of all ingredients, along with `script.js` and `style.css` files, have 
 ![mockup-en--mobile-1](https://user-images.githubusercontent.com/10798986/46463881-74244000-c7de-11e8-8bb9-57a71f985688.png)
 
 ![mockup-en--mobile-2](https://user-images.githubusercontent.com/10798986/46463884-75ee0380-c7de-11e8-9f55-e2e97e8073cf.png)
-
--------
-When the flags on the top are clicked, the language should change - For example, clicking the Chinese flag should display text in Chinese. The translations can be fetched from the API using query string:
-
-**API URL:** https://techkaro-test.herokuapp.com/api/v1/getdata
-**Query Parameter:** lang
-**lang values**: `en` for English, `zh` for Chinese, and `ur` for Urdu
-
-**Example:** To get data in Chinese, use https://techkaro-test.herokuapp.com/api/v1/getdata?lang=zh
-
--------------------
 
 ## Chinese
 
